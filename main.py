@@ -479,7 +479,7 @@ class GmailMCPServer:
     
     def run_flask_server(self):
         """Run the Flask server for OAuth and SSE"""
-        port = int(os.getenv('PORT', 5000))
+        port = int(os.getenv('PORT', 10000))
         self.flask_app.run(host='0.0.0.0', port=port, threaded=True)
     
     async def run(self):
