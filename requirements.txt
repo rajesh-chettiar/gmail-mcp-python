@@ -4,7 +4,7 @@ google-auth==2.23.3
 google-auth-oauthlib==1.0.0
 google-auth-httplib2==0.1.1
 google-api-python-client==2.100.0
-mcp
+mcp==0.9.1
 asyncio-mqtt==0.13.0
 uvloop==0.17.0
 gunicorn==21.2.0
